@@ -67,7 +67,7 @@ class App extends React.Component {
   fetchAPI = async () => {
     const url = "https://post-a-form.herokuapp.com/api/movies/";
 
-    const response = await axios.post(url, this.state);
+
 
     alert("The movie has been added");
   };
